@@ -1,1 +1,0 @@
-cmd_/home/pi/device_driver/04.gpioirq/gpioirq_module.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/device_driver/04.gpioirq/gpioirq_module.ko /home/pi/device_driver/04.gpioirq/gpioirq_module.o /home/pi/device_driver/04.gpioirq/gpioirq_module.mod.o;  true

@@ -7,4 +7,4 @@ default: clean
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
 
 clean:
-	sudo rm -rf *.o *.ko *.mod.c *.mod .led.* Module.symvers modules.order gpio /dev/gpioled
+	sudo rm -rf *.o *.ko *.mod* .gpio_module.* .led.* Module.symvers modules.order gpio /dev/gpioled

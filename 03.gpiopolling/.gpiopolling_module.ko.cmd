@@ -1,1 +1,0 @@
-cmd_/home/pi/device_driver/03.gpiopolling/gpiopolling_module.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/device_driver/03.gpiopolling/gpiopolling_module.ko /home/pi/device_driver/03.gpiopolling/gpiopolling_module.o /home/pi/device_driver/03.gpiopolling/gpiopolling_module.mod.o;  true
